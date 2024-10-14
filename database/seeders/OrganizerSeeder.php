@@ -2,12 +2,11 @@
 
 namespace Database\Seeders;
 
-use App\Models\OrganizerEvent;
 use Illuminate\Support\Carbon;
 use Illuminate\Database\Seeder;
 use App\Models\Organizer;
 
-class Organizer extends Seeder
+class OrganizerSeeder extends Seeder
 {
     public function run()
     {
